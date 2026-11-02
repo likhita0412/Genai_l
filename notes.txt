@@ -1,0 +1,6 @@
+What to look for
+Compare the four outputs and note:
+* Vague vs clear: does specifying the count and format improve the output?
+* Few-shot: does the model copy your example format closely? Showing an example is often more effective than describing the format.
+* Role + steps: does breaking the task into steps (ideas first, then questions) improve quality?
+* Does the 3B model ever invent facts that aren’t in the text? That’s why “based only on the text below” matters.

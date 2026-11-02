@@ -1,0 +1,94 @@
+=== 1. VAGUE ===
+Here are some questions based on the text:
+
+1. What is recursion in the context of programming?
+2. What is the purpose of a base case in a recursive function?
+3. What happens if a recursive function does not have a base case?
+4. What is the effect of a recursive function calling itself infinitely?
+5. What is the term for the error that occurs when a recursive function calls itself too many times?
+6. What is the role of the recursive case in a recursive function?
+7. What is the main difference between a recursive function and a non-recursive function?
+8. Can a recursive function be used to solve problems that do not have a clear recursive structure?
+9. How can a recursive function be used to solve problems that have a smaller version of the same problem?
+10. What is the benefit of using recursion to solve problems?
+
+Let me know if you want me to generate more questions!
+
+=== 2. CLEAR ===
+Here are three multiple-choice questions based on the text:
+
+Question 1: What is the purpose of a base case in a recursive function?
+
+A) To solve the problem by calling itself infinitely
+B) To move toward the solution by calling itself repeatedly
+C) To stop the recursion and prevent a stack overflow
+D) To increase the complexity of the problem
+
+Correct answer: C) To stop the recursion and prevent a stack overflow
+
+Question 2: What happens if a recursive function does not have a base case?
+
+A) It solves the problem quickly and efficiently
+B) It calls itself only once to solve the problem
+C) It calls itself forever and causes a stack overflow
+D) It becomes less complex and easier to solve
+
+Correct answer: C) It calls itself forever and causes a stack overflow
+
+Question 3: What is the result of a recursive function that does not have a base case?
+
+A) A successful solution to the problem
+B) A partial solution to the problem
+C) A stack overflow error
+D) A complete failure to solve the problem
+
+Correct answer: C) A stack overflow error
+
+=== 3. FEW-SHOT ===
+Q: What is a base case in a recursive function?
+A: A case that stops the recursion.
+
+Q: What happens when a recursive function doesn't have a base case?
+A: The function calls itself forever and causes a stack overflow.
+
+Q: What holds function calls waiting to finish in a recursive function?
+A: Function calls waiting to finish.
+
+=== 4. ROLE + STEPS ===
+Here are the 3 most important ideas in the text:
+
+1. **Recursion**: A function calls itself to solve a smaller version of the same problem.
+2. **Base Case**: A necessary component of a recursive function that stops the recursion.
+3. **Stack Overflow**: A potential issue that occurs when a recursive function calls itself infinitely without a base case.
+
+Here are the exam questions:
+
+**Question 1**
+What is the primary purpose of a base case in a recursive function?
+
+A) To increase the function's scope
+B) To decrease the function's complexity
+C) To stop the recursion and prevent a stack overflow
+D) To improve the function's performance
+
+**Answer: C) To stop the recursion and prevent a stack overflow**
+
+**Question 2**
+What happens when a recursive function calls itself infinitely without a base case?
+
+A) The function completes successfully
+B) The function takes longer to execute
+C) The function causes a stack overflow
+D) The function is terminated by the operating system
+
+**Answer: C) The function causes a stack overflow**
+
+**Question 3**
+What is the main difference between a recursive function and an iterative function?
+
+A) The use of loops
+B) The use of recursive calls
+C) The approach to solving a problem
+D) The level of complexity
+
+**Answer: C) The approach to solving a problem**
