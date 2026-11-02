@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # GenAI Learning - Week 1
 
 Beginner projects using local LLMs with Ollama and Python.
@@ -17,3 +18,6 @@ Beginner projects using local LLMs with Ollama and Python.
 - LLM APIs are stateless; memory is just resending the history
 - Temperature and token limits change output behavior
 - JSON mode helps, but outputs still need validation
+=======
+# Genai_l
+>>>>>>> d55c618d5383cce28fc04e2ff0078fc80882c01c
