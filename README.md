@@ -30,3 +30,10 @@ I compared four prompting techniques on the same quiz-generation task using llam
 followed the format exactly]. The vague prompt [what went wrong, e.g. returned a random
 number of questions with no answers marked]. I also found that [one surprise, e.g. the
 model added a fact that wasn't in the text, so "based only on the text" matters].
+
+## Week 3 notes
+
+Built a RAG Q&A tool over my notes with Ollama embeddings and Chroma. My first version put the
+whole file into one chunk, and the model failed to answer. Splitting the notes into smaller
+chunks fixed it, so chunking matters as much as the model. The "answer only from the notes"
+rule works most of the time, but small models don't always follow it.
