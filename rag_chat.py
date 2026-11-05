@@ -10,7 +10,7 @@ with open("notes.txt") as f:
 
 chunks = []
 for para in text.split("\n\n"):
-    para = para.strip()
+    para = para.strip() # strips whitespaces
     if not para:
         continue
     current = ""
@@ -18,10 +18,11 @@ for para in text.split("\n\n"):
         if len(current) + len(line) > 500 and current:
             chunks.append(current.strip())
             current = ""
-        current += line + "\n"
+        current += line + "\n" # adds line to buffer
     if current.strip():
         chunks.append(current.strip())
-print(f"Created {len(chunks)} chunks")
+print(f"Created {len(chunks)} chunks") #reports number of chunks
+
 
 # Embed and store
 embeddings = ollama.embed(model=EMBED_MODEL, input=chunks)["embeddings"]

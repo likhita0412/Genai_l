@@ -1,0 +1,5 @@
+[2024-03-12 22:05] Phone registered to Daniel Brooks connects to the cell tower nearest Greenfield Office.
+
+[2024-03-12 23:20] Phone registered to Daniel Brooks connects to the cell tower nearest Greenfield Office.
+
+[2024-03-13 00:15] Phone registered to Daniel Brooks connects to the cell tower nearest Oak Street, his home address.

@@ -1,0 +1,5 @@
+[2024-03-12 22:10] Camera 2 (back door): Man in red jacket approaches the door.
+
+[2024-03-12 22:25] Camera 2 (back door): Door opened with a key card, man enters.
+
+[2024-03-12 23:05] Camera 1 (parking lot): Grey sedan leaves the lot.
